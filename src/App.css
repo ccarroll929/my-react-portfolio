@@ -14,9 +14,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: peachpuff !important;
-  color: rgb(22, 59, 0) !important;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(224, 174, 140) !important;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,27 +31,18 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 .banner {
   width: 100%;
   height: auto;
 }
 
-.connect {
-  background-color: rgb(142, 185, 131);
-  border: 4px solid rgb(22, 59, 0);
-  }
-  
 .connect a {
   color:white;
   font-weight: 700;
 }
 
 .connect:hover a:hover {
-color: rgb(22, 59, 0);
+color:rgb(26, 70, 0);
 }
 
 input:focus, textarea:focus, select:focus {
@@ -75,7 +65,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  background-color: peachpuff;
+  background-color: rgb(243, 183, 143);
   position: fixed;
   width: 100%;
   top: 0;
@@ -85,7 +75,6 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color:rgb(219, 158, 158);
 }
 
 nav.navbar a.navbar-brand {
@@ -93,8 +82,8 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  color: rgb(1, 148, 99) !important;
-  font-weight: 700;
+  color: black;
+  font-weight:600;
   letter-spacing: 0.8px;
   padding: 0 20px;
   font-size: 18px;
@@ -102,7 +91,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     text-decoration: underline;
-    color:rgb(0, 37, 25);
+    color:rgb(0, 126, 78);
 }
 
 span.navbar-text {
@@ -174,6 +163,7 @@ nav.navbar .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
+  color: rgb(0, 92, 57) !important;
   margin: 5%;
   width: 100%;
   padding: 10% 5%;
@@ -193,6 +183,7 @@ nav.navbar .navbar-toggler-icon {
 
 .txt-rotate {
   font-size: 42px;
+  color: black;
 }
 
 .banner p {
@@ -202,13 +193,13 @@ nav.navbar .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 2em;
   width: 100%;
-  background-color: rgb(219, 158, 158, .7);
+  background-color: rgb(243, 183, 143, .8);
   border-radius: 10%;
   padding: 8px 10px;
 }
 
 .banner button {
-  color: rgb(22, 59, 0);
+  color: rgb(26, 70, 0);
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.8px;
@@ -232,7 +223,7 @@ nav.navbar .navbar-toggler-icon {
   width: 100%;
   max-width: 300px;
   max-height: 300px;
-  border: 8px solid rgb(219, 158, 158);
+  border: 8px solid rgb(243, 183, 143);
   border-radius: 10%;
   flex: 0 1 auto;
 }
@@ -249,5 +240,5 @@ nav.navbar .navbar-toggler-icon {
     }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid rgb(22, 59, 0);
+  border-right: 0.08em solid rgb(26, 70, 0);
 }
