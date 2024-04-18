@@ -1,42 +1,253 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/** Default Css **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: peachpuff !important;
+  color: rgb(22, 59, 0) !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.connect {
+  background-color: rgb(142, 185, 131);
+  border: 4px solid rgb(22, 59, 0);
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.connect a {
+  color:white;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.connect:hover a:hover {
+color: rgb(22, 59, 0);
 }
 
-.card {
-  padding: 2em;
+input:focus, textarea:focus, select:focus {
+  outline: none;
 }
 
-.read-the-docs {
-  color: #888;
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+	color: green;
+}
+
+p.danger {
+	color: red;
+}
+/************ Navbar Css ************/
+nav.navbar {
+  background-color: peachpuff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+  padding: 0px 0;
+  background-color:rgb(219, 158, 158);
+}
+
+nav.navbar a.navbar-brand {
+    width: 9%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  color: rgb(1, 148, 99) !important;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+    text-decoration: underline;
+    color:rgb(0, 37, 25);
+}
+
+span.navbar-text {
+    display:inline-flex;
+    float: left; 
+    margin-right: 20px;
+}
+
+.social-icon {
+    display: inline-flex;
+}
+
+.social-icon a {
+    padding: 5px;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 20%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+}
+
+.social-icon a::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+	  transition: 0.3s ease-in-out;
+    opacity: 0.85;
+}
+
+.social-icon a:hover::before {
+    transform: scale(1);
+    opacity: 0.85;
+}
+
+.social-icon a img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.social-icon a:hover {
+  opacity: 1;
+}
+
+
+.navbar-text button span {
+  z-index: 1;
+}
+
+.navbar-text button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+nav.navbar .navbar-toggler-icon {
+  width: 48px;
+  height: 48px;
+  background-image: url(./assets/img/dropdown-icon.png);
+  position: relative;
+  top: -2px;
+}
+
+/************ Banner Css ************/
+.banner {
+  margin: 5%;
+  width: 100%;
+  padding: 10% 5%;
+  background-image: url('./assets/img/banner-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex; 
+  flex-flow: wrap; 
+  background-color: white;
+}
+
+.banner h1 {
+  font-size: 56px;
+  letter-spacing: 0.9px;
+}
+
+.txt-rotate {
+  font-size: 42px;
+}
+
+.banner p {
+  color: black;
+  font-weight:500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 2em;
+  width: 100%;
+  background-color: rgb(219, 158, 158, .7);
+  border-radius: 10%;
+  padding: 8px 10px;
+}
+
+.banner button {
+  color: rgb(22, 59, 0);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.headerImg img {
+  animation: updown 4s linear infinite;
+  margin-left: 10%;
+  margin-top: 15%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  border: 8px solid rgb(219, 158, 158);
+  border-radius: 10%;
+  flex: 0 1 auto;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid rgb(22, 59, 0);
 }
