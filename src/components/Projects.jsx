@@ -41,56 +41,67 @@ const projects = [
     {
     title: "Daily Planner",
     projectLink: "https://ccarroll929.github.io/daily-planner/",
+    githubLink: "https://github.com/ccarroll929/daily-planner",
     imgUrl: dailyPlanner,
     },
     {
     title: "Weather Dashboard",
     projectLink: "https://ccarroll929.github.io/weather-app/",
+    githubLink: "https://github.com/ccarroll929/weather-app",
     imgUrl: weatherApp,
     },
     {
     title: "Express.js Note Taker",
     projectLink: "https://express-js-note-taker-ljci.onrender.com/",
+    githubLink: "https://github.com/ccarroll929/express.js-note-taker",
     imgUrl: noteTaker,
     },
     {
     title: "Wellness Tracker",
     projectLink: "https://ccarroll929.github.io/wellness-tracker-app/",
+    githubLink: "https://github.com/ccarroll929/wellness-tracker-app",
     imgUrl: wellnessTracker,
     },
     {
     title: "PWA Text Editor",
     projectLink:"https://pwa-text-editor-lan8.onrender.com/",
+    githubLink: "https://github.com/ccarroll929/PWA-text-editor",
     imgUrl: pwaEditor,
     },
     {
     title: "eCommerce Application",
     projectLink:"https://drive.google.com/file/d/1rUU7F__6iY28_lvrhhNv1igIrlLlMVDv/view",
+    githubLink: "https://github.com/ccarroll929/sequelize-ecommerce-application",
     imgUrl: eCommerceApp,
     },
     {
     title: "Social Network API",
     projectLink:"https://drive.google.com/file/d/1w18IRo8NiMAN3eMSQqwUz6kttnTFVDMZ/view",
+    githubLink: "https://github.com/ccarroll929/social-network-api",
     imgUrl: socialNetworkApi,
     },
     {
     title: "MySQL Employee Tracker",
     projectLink:"https://drive.google.com/file/d/1QcXHoTWUXjlXpOnGWF5pGqe7ouygpOj-/view",
+    githubLink: "https://github.com/ccarroll929/SQL-employee-tracker",
     imgUrl: employeeTracker,
     },
     {
     title: "SVG Logo Generator",
     projectLink:"https://drive.google.com/file/d/1Wl2Bu8BX-rHOvZo8veBMJIcO7uiQ1lZI/view",
+    githubLink: "https://github.com/ccarroll929/SVG-logo-generator",
     imgUrl: logoGenerator,
     },
     {
     title: "Random Password Generator",
     projectLink:"https://ccarroll929.github.io/password-generator/",
+    githubLink: "https://github.com/ccarroll929/password-generator",
     imgUrl: passwordGenerator,
     },
     {
     title: "README.md Generator",
     projectLink:"https://drive.google.com/file/d/1eLYJvKmpGOjXNOfSwVls3OH-U57_jHip/view",
+    githubLink: "https://github.com/ccarroll929/README-generator",
     imgUrl: readmeGenerator,
     },
 ];

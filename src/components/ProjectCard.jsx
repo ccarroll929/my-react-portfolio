@@ -1,7 +1,6 @@
-import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 
-export const ProjectCard = ({ title, projectLink, imgUrl }) => {
+export const ProjectCard = ({ title, projectLink, githubLink, imgUrl }) => {
     const responsive = {
         largeDesktop: {
             // the naming can be any, depends on you.
@@ -26,5 +25,6 @@ return (
     <div className="item">
         <h5>{title}</h5>
         <a href={projectLink}><img src={imgUrl}/></a>
+        <a href={githubLink}><h6>Link to GitHub Repo</h6></a>
     </div>
 )}
