@@ -1,6 +1,5 @@
 {
   "name": "my-react-portfolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +10,9 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "netlify": "^13.1.14",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-bootstrap-icons": "^1.11.3",
