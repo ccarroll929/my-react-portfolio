@@ -1,5 +1,3 @@
-import 'react-multi-carousel/lib/styles.css';
-
 export const ProjectCard = ({ title, projectLink, githubLink, imgUrl }) => {
     const responsive = {
         largeDesktop: {
