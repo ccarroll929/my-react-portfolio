@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react"; 
 import { Navbar, Nav, Container } from "react-bootstrap";
-import socialIcon1 from '../assets/img/linkedin_icon.png';
-import socialIcon2 from '../assets/img/github_icon.png';
-import socialIcon3 from '../assets/img/gmail_icon.png';
 import {BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
@@ -40,11 +37,6 @@ export const NavBar = () => {
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </span>
-                {/* <div className="social-icon">
-                    <a href="#"><img src={socialIcon1} alt="linkedin icon"></img></a>
-                    <a href="#"><img src={socialIcon2} alt="github icon"></img></a>
-                    <a href="#"><img src={socialIcon3} alt="gmail icon"></img></a>
-                </div> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

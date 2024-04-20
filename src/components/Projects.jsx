@@ -64,7 +64,7 @@ const projects = [
     imgUrl: pwaEditor,
     },
     {
-    title: "Sequelize eCommerce Application",
+    title: "eCommerce Application",
     projectLink:"https://drive.google.com/file/d/1rUU7F__6iY28_lvrhhNv1igIrlLlMVDv/view",
     imgUrl: eCommerceApp,
     },
