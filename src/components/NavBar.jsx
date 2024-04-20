@@ -30,25 +30,23 @@ export const NavBar = () => {
     return (
         <Router>
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-            <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto">
+                <Nav className="navbar">
                 <span className="navbar-text">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </span>
-                </Nav>
-                <div className="social-icon">
+                {/* <div className="social-icon">
                     <a href="#"><img src={socialIcon1} alt="linkedin icon"></img></a>
                     <a href="#"><img src={socialIcon2} alt="github icon"></img></a>
                     <a href="#"><img src={socialIcon3} alt="gmail icon"></img></a>
-                </div>
+                </div> */}
+                </Nav>
             </Navbar.Collapse>
-            </Container>
         </Navbar>
         </Router>
     )

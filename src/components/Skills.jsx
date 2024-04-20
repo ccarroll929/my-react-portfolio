@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+
 import skillIcon1 from '../assets/img/skill-icon1.png';
 import skillIcon2 from '../assets/img/skill-icon2.png';
 import skillIcon3 from '../assets/img/skill-icon3.png';
@@ -66,7 +67,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={skillIcon5} alt="Image" />
-                                <h5>API Building and Integration</h5>
+                                <h5>API Integration</h5>
                             </div>
                             <div className="item">
                                 <img src={skillIcon6} alt="Image" />
@@ -122,7 +123,7 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                 <img src={ techIcon10 } alt="Image" />
-                                    <h5>Adobe Sandbox/Graph.ql</h5>
+                                    <h5>Adobe Sandbox</h5>
                                 </div>
                         </Carousel>
                         </div>
