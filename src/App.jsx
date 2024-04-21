@@ -10,24 +10,25 @@ import { Footer } from "./components/Footer";
 import { Resume } from "./components/Resume";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-
+  const [load, updateLoad] = useState(true);
+// Loading timer
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
 
+  // Returns all components 
   return (
     <div className="App">
       <NavBar />
-      <Banner className="banner"/>
-      <Resume />
+      <Banner/>
       <Skills />
       <Projects />
       <Contact />
+      <Resume />
       <Footer />
     </div>
   );
