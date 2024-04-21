@@ -3,17 +3,17 @@ import { ProjectCard } from "./ProjectCard";
 import Carousel from 'react-multi-carousel';
 
 // Project images
-import dailyPlanner from "../assets/img/daily-planner.png";
-import weatherApp from "../assets/img/weather-dashboard.png";
-import noteTaker from "../assets/img/notetaker.png";
-import wellnessTracker from "../assets/img/wellness-tracker.png";
-import pwaEditor from "../assets/img/pwa-editor.png";
-import eCommerceApp from "../assets/img/sequelize-eCommerce.png";
-import socialNetworkApi from "../assets/img/socialnetworkapi.png";
-import employeeTracker from "../assets/img/employee-tracker.png";
-import logoGenerator from "../assets/img/logo-generator.png";
-import passwordGenerator from "../assets/img/password-generator.png";
-import readmeGenerator from "../assets/img/readme-generator.png";
+import dailyPlanner from "../assets/img/projectImg1.png"; 
+import weatherApp from "../assets/img/projectImg2.png";
+import noteTaker from "../assets/img/projectImg3.png";
+import wellnessTracker from "../assets/img/projectImg4.png";
+import pwaEditor from "../assets/img/projectImg5.png";
+import eCommerceApp from "../assets/img/projectImg6.png";
+import socialNetworkApi from "../assets/img/projectImg7.png"; 
+import employeeTracker from "../assets/img/projectImg8.png";
+import logoGenerator from "../assets/img/projectImg9.png";
+import readmeGenerator from "../assets/img/projectImg10.png";
+import passwordGenerator from "../assets/img/projectImg11.png";
 
 
 export const Projects = () => {

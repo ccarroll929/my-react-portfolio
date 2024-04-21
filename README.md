@@ -1,8 +1,39 @@
-# React + Vite
+# Title: React Professional Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Description](#description)
+- [Technology](#technology)
+- [Usage](#installation/usage)
+- [Contribution](#contribution)
+- [Questions](#questions)
 
-Currently, two official plugins are available:
+## Description
+In this project, I created a portfolio page using React/Vite that showcases my skills and projects as a full stack developer. Complete with a contact form and downloadable resume for potential employer's convenience. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Deployed Application on Netlify
+
+
+### Screenshot of Application
+![](./src/assets/img/portfolio-ss.png)
+
+### Technology
+- Node.js
+- React/Vite
+
+## Usage
+- Clone the repository and enter `npm install` in the command line to install all dependencies
+- Enter `npm run dev` in the command-line to start the application server on your localhost
+
+
+### Set Up Form / Contact Submission
+
+Then, create a (free) [Formspree Account](https://formspree.io) to collect and manage your contact submissions. Create a `.env` file and paste in `REACT_APP_FORM_ID="not-a-real-form-id"`. Then, replace `not-a-real-form-id` with the form id listed in your Formspree account (the last part of your form's endpoint: `https://formspree.io/f/not-a-real-form-id`). If you're using something other than Github Pages, such as Vercel, Heroku, or Netlify, set up these variables in that provider's UI/dashboard. 
+
+## Contribution
+- Fork the repository
+
+## Questions
+Contact me with questions: 
+- https://github.com/ccarroll929 
+- ccarroll0528@gmail.com
+
