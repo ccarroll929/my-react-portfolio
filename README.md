@@ -22,7 +22,7 @@ https://christinacarrollportfolio.netlify.app/
 
 ## Usage
 - Clone the repository and enter `npm install` in the command line to install all dependencies
-- Enter `npm run dev` in the command-line to start the application server on your localhost
+- Enter `npm run dev` in the command-line to build and start the application on your localhost server
 
 ## Contribution
 - Fork the repository
