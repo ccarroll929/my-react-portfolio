@@ -313,7 +313,7 @@ height: 175px;
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
-  padding: 18px 26px;
+  padding: 12px 18px;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -382,11 +382,12 @@ footer {
   font-weight: 400;
   font-size: 26px;
   margin-top: 3%;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .socials p {
-font-size: 18px;
+font-size: 20px;
+font-weight: 400;
 }
 .socials .icons {
   font-weight: 400;

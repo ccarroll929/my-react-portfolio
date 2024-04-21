@@ -44,8 +44,6 @@ const handleSubmit = async (e) => {
 return (
     <section className="contact" id="contact">
     <Container>
-        <Row className="align-items-center">
-        <Col size={12} md={6}>
                 <div>
                 <h2>Send me a message!</h2>
                 <form onSubmit={handleSubmit}>
@@ -75,8 +73,6 @@ return (
                 </Row>
                 </form>
             </div>
-        </Col>
-        </Row>
     </Container>
     </section>
 )
