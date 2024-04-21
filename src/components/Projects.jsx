@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import Carousel from 'react-multi-carousel';
 
 // Project images
-import dailyPlanner from "../assets/img/dailyplanner.png";
+import dailyPlanner from "../assets/img/daily-planner.png";
 import weatherApp from "../assets/img/weather-dashboard.png";
 import noteTaker from "../assets/img/notetaker.png";
 import wellnessTracker from "../assets/img/wellness-tracker.png";
