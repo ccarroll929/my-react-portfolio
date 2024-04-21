@@ -8,10 +8,10 @@
 - [Questions](#questions)
 
 ## Description
-In this project, I created a portfolio page using React/Vite that showcases my skills and projects as a full stack developer. Complete with a contact form and downloadable resume for potential employer's convenience. 
+In this project, I created a portfolio page using React/Vite that showcases my skills and projects as a full stack developer. It also features a contact form, social media links, and a downloadable resume for potential employer's convenience. 
 
 ### Deployed Application on Netlify
-
+https://christinacarrollportfolio.netlify.app/ 
 
 ### Screenshot of Application
 ![](./src/assets/img/portfolio-ss.png)
@@ -23,7 +23,6 @@ In this project, I created a portfolio page using React/Vite that showcases my s
 ## Usage
 - Clone the repository and enter `npm install` in the command line to install all dependencies
 - Enter `npm run dev` in the command-line to start the application server on your localhost
-
 
 ### Set Up Form / Contact Submission
 
