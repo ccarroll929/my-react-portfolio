@@ -24,10 +24,6 @@ https://christinacarrollportfolio.netlify.app/
 - Clone the repository and enter `npm install` in the command line to install all dependencies
 - Enter `npm run dev` in the command-line to start the application server on your localhost
 
-### Set Up Form / Contact Submission
-
-Then, create a (free) [Formspree Account](https://formspree.io) to collect and manage your contact submissions. Create a `.env` file and paste in `REACT_APP_FORM_ID="not-a-real-form-id"`. Then, replace `not-a-real-form-id` with the form id listed in your Formspree account (the last part of your form's endpoint: `https://formspree.io/f/not-a-real-form-id`). If you're using something other than Github Pages, such as Vercel, Heroku, or Netlify, set up these variables in that provider's UI/dashboard. 
-
 ## Contribution
 - Fork the repository
 
