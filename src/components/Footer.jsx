@@ -8,10 +8,11 @@ export const Footer= () => {
     <footer className="socials" id="socials">
         <Container>
             <div className="social-icon">
-                <h4>Social Links</h4>
-                <h5><a href="https://www.linkedin.com/in/christina-carroll-504875304/"><img src={socialIcon1} alt="Icon" /></a>
+                <h4>Social Media Links</h4>
+                <p> Click an icon below to visit my LinkedIn, GitHub, and Facebook profiles!</p>
+                <div className="icons"><a href="https://www.linkedin.com/in/christina-carroll-504875304/"><img src={socialIcon1} alt="Icon" /></a>
                 <a href="https://github.com/ccarroll929"><img src={socialIcon2} alt="Icon" /></a>
-                <a href="https://www.facebook.com/christina.cormier.16/"><img src={socialIcon3} alt="Icon" /></a></h5>
+                <a href="https://www.facebook.com/christina.cormier.16/"><img src={socialIcon3} alt="Icon" /></a></div>
             </div>
         </Container>
     </footer>

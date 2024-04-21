@@ -93,7 +93,7 @@ const projects = [
     imgUrl: logoGenerator,
     },
     {
-    title: "Random Password Generator",
+    title: "Password Generator",
     projectLink:"https://ccarroll929.github.io/password-generator/",
     githubLink: "https://github.com/ccarroll929/password-generator",
     imgUrl: passwordGenerator,
@@ -111,9 +111,9 @@ return (
     <div className="container">
         <div className="row">
             <div className="col-12">
-            <div className="project-bx wow zoomIn">
+            <div className="project-bx">
                 <h2>My Projects:</h2>
-                <p>Click on a project image to see the deployed application or a video walkthrough demonstration of the application's functionality.</p>
+                <p>Click on a project image to see the deployed application or video walkthrough demonstration of the application's functionality.</p>
                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme project-slider">
                     {
                     projects.map((project, index) => {
