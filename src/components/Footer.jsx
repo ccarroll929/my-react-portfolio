@@ -3,6 +3,7 @@ import socialIcon1 from '../assets/img/linkedin-icon.png';
 import socialIcon2 from '../assets/img/github-icon.png';
 import socialIcon3 from '../assets/img/facebook-icon.png';
 
+// Function that returns social icons embedded with links to my social profiles
 export const Footer= () => {
     return (
     <footer className="socials" id="socials">

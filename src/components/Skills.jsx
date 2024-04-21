@@ -20,6 +20,7 @@ import techIcon8 from '../assets/img/tech-icon8.png';
 import techIcon9 from '../assets/img/tech-icon9.png';
 import techIcon10 from '../assets/img/tech-icon10.png';
 
+// Function that returns list of skills and technologies in a carousel format
 export const Skills = () => {
     const responsive = {
     largeDesktop: {

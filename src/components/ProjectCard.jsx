@@ -1,7 +1,7 @@
+// Function that generates a Project Card using data from Project.jsx
 export const ProjectCard = ({ title, projectLink, githubLink, imgUrl }) => {
     const responsive = {
         largeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },

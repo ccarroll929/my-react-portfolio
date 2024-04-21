@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import TrackVisibility from 'react-on-screen';
 
+// Setting contact form input details
 export const Contact = () => {
     const formInitialDetails = {
         firstName: '',
@@ -21,6 +21,7 @@ const onFormUpdate = (category, value) => {
     })
 }
 
+// Function to validate contact form submits
 const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
@@ -41,6 +42,7 @@ const handleSubmit = async (e) => {
     }
 };
 
+// Returns a contact form with fields for name, email, message, and a submit button
 return (
     <section className="contact" id="contact">
     <Container>

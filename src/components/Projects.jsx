@@ -15,11 +15,10 @@ import logoGenerator from "../assets/img/projectImg9.png";
 import readmeGenerator from "../assets/img/projectImg10.png";
 import passwordGenerator from "../assets/img/projectImg11.png";
 
-
+// Exporting the Projects component 
 export const Projects = () => {
     const responsive = {
         largeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
@@ -37,6 +36,7 @@ export const Projects = () => {
         }
         };
 
+// Project data to be used in ProjectCard.jsx
 const projects = [
     {
     title: "Daily Planner",
@@ -106,6 +106,7 @@ const projects = [
     },
 ];
 
+// Returns a carousel of all projects generated in ProjectCard.jsx
 return (
 <section className="project" id="projects">
     <div className="container">

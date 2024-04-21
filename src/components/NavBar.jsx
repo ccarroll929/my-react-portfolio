@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import {BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
+// Function to determine active links/scroll states
     const [activeLink, setActiveLink] = useState('aboutme');
     const [scrolled, setScrolled] = useState(false);
 
@@ -23,7 +24,7 @@ export const NavBar = () => {
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
-
+// Returns navigation bar with navigation links
     return (
         <Router>
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>

@@ -5,6 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
+// Typing animation effect 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -46,6 +47,7 @@ const tick = () => {
     }
 }
 
+// Returns about me section
 return (
     <section className="banner" id="home">
         <Container className="align-items-center">
