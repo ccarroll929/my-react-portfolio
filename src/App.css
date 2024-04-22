@@ -348,11 +348,12 @@ height: 175px;
   position: relative;
 }
 .contact form button:hover {
+  background: rgb(0, 56, 37);
   color: #fff;
+  border: solid 2px white;
 }
 .contact form button::before {
   content: "";
-  background: rgb(0, 56, 37);
   border-radius: 6px;
   width: 0;
   height: 100%;
