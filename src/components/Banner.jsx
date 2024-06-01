@@ -59,7 +59,7 @@ return (
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Christina:`}</h1>
                 <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span>
-                <p>Welcome to my portfolio page! My name is Christina Carroll and I'm a full-stack developer with a passion for problem solving and creating unique web designs. As I continue on my journey of learning and self-improvement, I will be updating this portfolio with my accomplishments and completed projects. Feel free to explore my portfolio and checkout my skills, projects, resume, and social links!</p>
+                <p>Welcome to my portfolio page! My name is Christina Carroll and I'm a certified full-stack developer with a passion for problem solving and creating unique web designs. As I continue on my journey of learning and self-improvement, I will be updating this portfolio with my accomplishments and completed projects. Feel free to explore my portfolio and checkout my skills, projects, resume, and social links!</p>
                 <button className="connect" onClick={() => console.log('connect')}><a href="#contact">Let’s Connect</a><ArrowRightCircle size={25} /></button>
             </div>}
             </TrackVisibility>

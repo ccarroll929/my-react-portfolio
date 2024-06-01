@@ -14,6 +14,7 @@ import employeeTracker from "../assets/img/projectImg8.png";
 import logoGenerator from "../assets/img/projectImg9.png";
 import readmeGenerator from "../assets/img/projectImg10.png";
 import passwordGenerator from "../assets/img/projectImg11.png";
+import deskSpace from "../assets/img/projectImg12.png";
 
 // Exporting the Projects component 
 export const Projects = () => {
@@ -38,6 +39,12 @@ export const Projects = () => {
 
 // Project data to be used in ProjectCard.jsx
 const projects = [
+    {
+    title: "Flashcard App",
+    projectLink: "https://desk-space.onrender.com/",
+    githubLink: "https://github.com/ShaneLeeJohnson/Desk-Space",
+    imgUrl: deskSpace,
+    },
     {
     title: "Daily Planner",
     projectLink: "https://ccarroll929.github.io/daily-planner/",
